@@ -1,7 +1,7 @@
 {
   "name": "treino-de-vscode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repositório com o código de variáveis e funções que foram feitos em Node.js.",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -45,5 +45,13 @@
     "tinyglobby": "^0.2.17",
     "vite": "^8.3.0",
     "why-is-node-running": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edicarla/Reposit-rio-para-a-atividade-26.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edicarla/Reposit-rio-para-a-atividade-26/issues"
+  },
+  "homepage": "https://github.com/edicarla/Reposit-rio-para-a-atividade-26#readme"
 }
