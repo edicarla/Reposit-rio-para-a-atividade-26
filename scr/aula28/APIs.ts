@@ -30,7 +30,7 @@ async function listarPost() {
 async function buscarPorId(id:number) {
     console.log('-----1. metodo GET/posts------');
     const res=await fetch(`${BASE_URL}/post`);
-    const dados:Post[]=await res.json();
+    const dados:Post=await res.json();
     console.log(`Status:${res.status}`);
     console.log(`Titulo post ${id}:`, dados.title);
 };
@@ -47,8 +47,8 @@ async function listarComent(postId:number) {
 
 async function chamarReqs() {
     listarPost();
-    buscarPorId();
-    listarComent();
+    buscarPorId(1);
+    listarComent(1);
 };
 
 chamarReqs();
